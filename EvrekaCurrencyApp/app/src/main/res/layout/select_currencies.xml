@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  <data></data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical">
+
+  <RelativeLayout
+      android:layout_gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:padding="10dp">
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/select_text"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lomb"
+        android:text="@string/select_currency"
+        android:textSize="22sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:foreground="@drawable/ripple"
+        android:layout_centerVertical="true"
+        android:id="@+id/close_dialog"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_close"
+        android:layout_width="32dp"
+        android:layout_height="32dp"></ImageView>
+
+  </RelativeLayout>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@drawable/seperator"></View>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/all_currencies_recycler_view"
+      android:layout_margin="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
+</layout>

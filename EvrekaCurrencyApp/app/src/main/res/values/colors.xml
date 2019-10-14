@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f9ba48</color>
+    <color name="colorPrimaryDark">#f9db8a</color>
+    <color name="colorAccent">#f9ba48</color>
+
+    <color name="infoLayout">#f9db8a</color>
+    <color name="baseCurrencyLayout">#66E4E4E1</color>
+    <color name="imageViewBorder">#72F9BA48</color>
+    <color name="dark_bg">#72ACACAC</color>
+    <color name="light_bg">#72D8D6D6</color>
+
+</resources>
